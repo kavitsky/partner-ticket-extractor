@@ -6,6 +6,10 @@ First slice of the course project: the same tickets and model layer will feed th
 
 Results and the production decision: [REPORT.md](REPORT.md).
 
+> **Data note:** all 30 tickets are synthetic and were written by hand for this project. Partner names,
+> endpoints and all IDs (account, listing, reservation) are fictional; the IDs only mimic the format of real
+> IDs. No real customer, partner or personal data is included. Details: [data/LABELING.md](data/LABELING.md).
+
 ## Run
 
 Requirements: Python 3.11+, an [OpenRouter](https://openrouter.ai/keys) key, and [Ollama](https://ollama.com) for the local model.

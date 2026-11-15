@@ -1,7 +1,13 @@
 # Labeling guide (golden set)
 
 `data/tickets/` holds 30 synthetic partner tickets written in the style of real Guesty API partner
-support traffic. Partner names, IDs and hosts are fictional; there is no personal data.
+support traffic. They were written by hand for this project, not taken from any real support system.
+
+> **All IDs are fictional.** Account, listing, reservation, quote and conversation IDs only copy the
+> format of real IDs (24-character hex, MongoDB ObjectId style) so that extraction is realistic.
+> They were typed by hand (note patterns like `…c0ffee…`, `…deadbeef…`, `…aa11bb22cc33…`) and do not refer
+> to real Guesty accounts, listings or reservations. Partner names, hosts and endpoints are fictional too,
+> and there is no personal data.
 They are deliberately messy: 1-line to 25-line texts, typos, forwarded threads, pasted logs,
 email signatures and disclaimers, and English / Ukrainian / Russian / Spanish, often mixed.
 
