@@ -1,0 +1,12 @@
+Hello Guesty support,
+
+We're seeing intermittent HTTP 500 when creating reservations through the Booking Engine API. Request:
+
+POST https://booking.guesty.com/api/reservations/quotes/66a1b2c3d4e5f60718293a4b/instant
+listingId: 65c0ffee12ab34cd56ef7890
+response: {"error":{"code":"INTERNAL_SERVER_ERROR","message":"Something went wrong"}}
+
+About 1 of 8 checkouts fail, and the guest card may already be charged when it fails - we need to confirm. This is our direct booking site for 3 properties (StayLocal website). It started after your maintenance window on Tuesday.
+
+Thanks,
+Web team @ StayLocal

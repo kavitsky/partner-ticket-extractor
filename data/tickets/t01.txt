@@ -1,0 +1,5 @@
+Subject: 401 again??
+
+hi team, since this morning all our calls to open-api.guesty.com/v1/listings return 401 Unauthorized "invalid_token". we did rotate the client secret yesterday in the dashbaord, maybe related? acount 64b2f1c9e8a7d6b5c4f3a210. our sync with the cleaning app is stuck, cleaners dont see todays checkouts.
+
+-- Ops team, TidyTurn

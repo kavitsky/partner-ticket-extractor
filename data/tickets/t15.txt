@@ -1,0 +1,2 @@
+Коллеги, срочно. Сегодня запустили промо-кампанию и Booking Engine API начал отдавать 429 на GET /api/listings?checkIn=...&checkOut=... (поиск доступности). Сайт показывает "no availability" и мы теряем конверсии прямо сейчас. Our BE API key is for account 6620fe0dc0ffee1234567890. Can you raise the limit at least for today??
+— Sunny Coast Rentals

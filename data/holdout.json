@@ -1,0 +1,105 @@
+{
+  "t11": {
+    "partner_name": null,
+    "surface": "unknown",
+    "category": "other",
+    "priority": "low",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t12": {
+    "partner_name": "CasaClean",
+    "surface": "open_api",
+    "category": "bug",
+    "priority": "high",
+    "language": "es",
+    "entity_ids": {"account_ids": ["6612abcdef0123456789abcd"], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [{"endpoint": "/v1/tasks-open-api/tasks", "http_method": "GET", "http_status": 404, "error_message": "Not Found"}],
+    "needs_engineering": true
+  },
+  "t13": {
+    "partner_name": "OwnerView",
+    "surface": "open_api",
+    "category": "how_to_question",
+    "priority": "low",
+    "language": "uk",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t14": {
+    "partner_name": null,
+    "surface": "webhooks",
+    "category": "how_to_question",
+    "priority": "medium",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t15": {
+    "partner_name": "Sunny Coast Rentals",
+    "surface": "booking_engine_api",
+    "category": "rate_limit",
+    "priority": "critical",
+    "language": "mixed",
+    "entity_ids": {"account_ids": ["6620fe0dc0ffee1234567890"], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [{"endpoint": "/api/listings", "http_method": "GET", "http_status": 429, "error_message": null}],
+    "needs_engineering": false
+  },
+  "t16": {
+    "partner_name": null,
+    "surface": "unknown",
+    "category": "bug",
+    "priority": "medium",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t17": {
+    "partner_name": "PriceWise",
+    "surface": "partners_api",
+    "category": "integration_setup",
+    "priority": "low",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t18": {
+    "partner_name": null,
+    "surface": "open_api",
+    "category": "bug",
+    "priority": "high",
+    "language": "uk",
+    "entity_ids": {"account_ids": [], "listing_ids": ["6631c0de5f4e3d2c1b0a9988"], "reservation_ids": ["6631d1e2f3a4b5c6d7e8f901"]},
+    "api_errors": [],
+    "needs_engineering": true
+  },
+  "t19": {
+    "partner_name": null,
+    "surface": "open_api",
+    "category": "rate_limit",
+    "priority": "high",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [
+      {"endpoint": "/oauth2/token", "http_method": "POST", "http_status": 429, "error_message": "too_many_requests"},
+      {"endpoint": "/v1/reservations", "http_method": "GET", "http_status": 401, "error_message": "Unauthorized"}
+    ],
+    "needs_engineering": false
+  },
+  "t20": {
+    "partner_name": "GuestChat",
+    "surface": "open_api",
+    "category": "how_to_question",
+    "priority": "medium",
+    "language": "mixed",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [{"endpoint": "/v1/communication/conversations/6640aa11bb22cc33dd44ee55/send-message", "http_method": "POST", "http_status": 400, "error_message": "Invalid module type"}],
+    "needs_engineering": false
+  }
+}

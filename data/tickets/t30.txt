@@ -1,0 +1,1 @@
+SECURITY: one of our devs accidentally pushed our Open API client secret to a public GitHub repo ~2h ago. We removed the commit. What should we do right now? Can you revoke it on your side? account 6680deadbeef0011223344aa

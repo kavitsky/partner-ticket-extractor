@@ -1,0 +1,2 @@
+Привет, у нас проблема с вебхуками. reservation.updated не приходят с 14 числа примерно, last one we got was for res 6523ab90cd12ef3456789abc. Endpoint у нас https://hooks.revpilot.io/guesty отвечает 200, мы проверили логи — от вас просто ничего не приходит. Account id 650f1e2d3c4b5a6978877665. We lose price updates -> overbooking risk!! pls escalate
+RevPilot

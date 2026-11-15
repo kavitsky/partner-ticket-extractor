@@ -1,0 +1,1 @@
+Hi, we're GuestChat. Повідомлення гостям через API не з'являються в інбоксі. POST /v1/communication/conversations/6640aa11bb22cc33dd44ee55/send-message returns 400 "Invalid module type". Ми передаємо module: "sms". Раніше працювало з "email". Ок, може ми щось не так робимо, підкажіть правильні значення.

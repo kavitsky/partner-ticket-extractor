@@ -1,0 +1,11 @@
+Fwd: Re: Re: sync issue
+
+---- forwarded ----
+> they say its your side
+
+ok so recap from our dev:
+1) GET /v1/listings?limit=100&skip=200 -> 504 Gateway Timeout (every night around 02:00 UTC during full resync)
+2) after that GET /v1/reservations returns 502 for ~10 min
+acc: 63ff12ab34cd56ef7890abcd (main), 63ff12ab34cd56ef7890abce (second brand)
+nightly job fails so owner statements next day are wrong. Was fine last month.
+pls advise - Ledgerly

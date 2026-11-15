@@ -1,0 +1,3 @@
+Our legacy Java 7 app fails calling https://booking.guesty.com/api/listings with
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed
+Did you change certificates? Started on Monday. Booking widget on our site is down.

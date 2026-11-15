@@ -1,0 +1,1 @@
+Добрый день. Получаем 403 Forbidden при попытке GET /v1/owners — "insufficient scope". Токен получаем через client credentials, приложение создано вчера. Другие эндпоинты (listings, reservations) работают норм. Что нужно включить? Компания OwnerPay.

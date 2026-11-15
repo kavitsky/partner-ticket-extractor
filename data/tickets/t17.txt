@@ -1,0 +1,1 @@
+Hi! We're PriceWise, a dynamic pricing tool, and we just signed the marketplace partnership agreement. What are the next steps to get partner credentials and a test account? Our devs want to start next week. Also is there a postman collection?

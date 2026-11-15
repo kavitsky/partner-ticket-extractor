@@ -1,0 +1,13 @@
+Good afternoon,
+
+I hope this message finds you well. I am reaching out on behalf of the integrations team at Concierge Hub regarding our ongoing collaboration. We truly value the partnership and appreciate all the support your team has provided over the last quarter.
+
+The issue: PATCH /v1/guests/6670abcabcabcabcabcabcab returns 422 "phone must be a valid E.164 number" when we send numbers like 044 123 45 67.
+
+Please let us know at your earliest convenience.
+
+Kind regards,
+Integrations Team
+Concierge Hub
+
+CONFIDENTIALITY NOTICE: This e-mail and any attachments are confidential and may be legally privileged. If you are not the intended recipient, please notify the sender immediately and delete this e-mail. Any unauthorized review, use, disclosure or distribution is prohibited.

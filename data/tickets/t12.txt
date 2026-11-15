@@ -1,0 +1,2 @@
+Hola, somos CasaClean. Desde ayer al llamar a GET /v1/tasks-open-api/tasks recibimos 404 Not Found. ¿Cambió la URL? Nuestro equipo de limpieza no recibe las tareas del día. cuenta 6612abcdef0123456789abcd
+gracias

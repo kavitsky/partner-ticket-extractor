@@ -1,0 +1,7 @@
+[2026-10-03 08:14:22] INFO  sync started
+[2026-10-03 08:14:23] ERROR POST https://open-api.guesty.com/oauth2/token -> 429 {"error":"too_many_requests"}
+[2026-10-03 08:14:24] ERROR POST https://open-api.guesty.com/oauth2/token -> 429 {"error":"too_many_requests"}
+[2026-10-03 08:14:25] ERROR GET https://open-api.guesty.com/v1/reservations -> 401 {"message":"Unauthorized"}  Authorization: Bearer eyJ***REDACTED***
+[2026-10-03 08:14:25] FATAL giving up
+
+^ this is from our worker. We request a new token before each sync run (every 5 min). Is that wrong? how long does the token live?

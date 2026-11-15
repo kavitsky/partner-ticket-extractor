@@ -1,0 +1,1 @@
+we cant verify webhook signatures. the header svix-signature is there but our HMAC never matches. using the secret from the webhooks page, base64 decoded. node crypto, sha256. are we supposed to sign the raw body or the parsed json? docs example is in python only

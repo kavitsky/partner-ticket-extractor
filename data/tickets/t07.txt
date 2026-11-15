@@ -1,0 +1,1 @@
+Feature ask from Lockly: would be great if the webhook payload for reservation.new included the door code custom field so we dont need a second GET call to /v1/reservations/{id}. Not urgent.

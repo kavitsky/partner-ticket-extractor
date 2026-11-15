@@ -1,0 +1,1 @@
+URGENT!!! календар не оновлюється. We push availability via PUT /v1/availability-pricing/api/calendar/listings/65f9e8d7c6b5a4938271605f — отримуємо 200 OK але в Airbnb дати лишаються відкриті. Вже 2 овербукінги за вихідні!!! listing 65f9e8d7c6b5a4938271605f та 65f9e8d7c6b5a49382716060, акаунт 64aa00bb11cc22dd33ee44ff.

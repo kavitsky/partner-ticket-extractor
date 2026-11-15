@@ -1,0 +1,105 @@
+{
+  "t01": {
+    "partner_name": "TidyTurn",
+    "surface": "open_api",
+    "category": "authentication",
+    "priority": "high",
+    "language": "en",
+    "entity_ids": {"account_ids": ["64b2f1c9e8a7d6b5c4f3a210"], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [{"endpoint": "/v1/listings", "http_method": null, "http_status": 401, "error_message": "invalid_token"}],
+    "needs_engineering": false
+  },
+  "t02": {
+    "partner_name": "KeyNest",
+    "surface": "partners_api",
+    "category": "rate_limit",
+    "priority": "medium",
+    "language": "uk",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [{"endpoint": "/v1/reservations", "http_method": "GET", "http_status": 429, "error_message": "Too Many Requests"}],
+    "needs_engineering": false
+  },
+  "t03": {
+    "partner_name": "RevPilot",
+    "surface": "webhooks",
+    "category": "data_sync",
+    "priority": "high",
+    "language": "mixed",
+    "entity_ids": {"account_ids": ["650f1e2d3c4b5a6978877665"], "listing_ids": [], "reservation_ids": ["6523ab90cd12ef3456789abc"]},
+    "api_errors": [],
+    "needs_engineering": true
+  },
+  "t04": {
+    "partner_name": "StayLocal",
+    "surface": "booking_engine_api",
+    "category": "bug",
+    "priority": "critical",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": ["65c0ffee12ab34cd56ef7890"], "reservation_ids": []},
+    "api_errors": [{"endpoint": "/api/reservations/quotes/66a1b2c3d4e5f60718293a4b/instant", "http_method": "POST", "http_status": 500, "error_message": "Something went wrong"}],
+    "needs_engineering": true
+  },
+  "t05": {
+    "partner_name": null,
+    "surface": "unknown",
+    "category": "how_to_question",
+    "priority": "low",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t06": {
+    "partner_name": "HostBridge",
+    "surface": "partners_api",
+    "category": "integration_setup",
+    "priority": "medium",
+    "language": "uk",
+    "entity_ids": {"account_ids": ["6601aa22bb33cc44dd55ee66"], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t07": {
+    "partner_name": "Lockly",
+    "surface": "webhooks",
+    "category": "feature_request",
+    "priority": "low",
+    "language": "en",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": false
+  },
+  "t08": {
+    "partner_name": null,
+    "surface": "open_api",
+    "category": "data_sync",
+    "priority": "critical",
+    "language": "mixed",
+    "entity_ids": {"account_ids": ["64aa00bb11cc22dd33ee44ff"], "listing_ids": ["65f9e8d7c6b5a4938271605f", "65f9e8d7c6b5a49382716060"], "reservation_ids": []},
+    "api_errors": [],
+    "needs_engineering": true
+  },
+  "t09": {
+    "partner_name": "OwnerPay",
+    "surface": "open_api",
+    "category": "authentication",
+    "priority": "medium",
+    "language": "ru",
+    "entity_ids": {"account_ids": [], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [{"endpoint": "/v1/owners", "http_method": "GET", "http_status": 403, "error_message": "insufficient scope"}],
+    "needs_engineering": false
+  },
+  "t10": {
+    "partner_name": "Ledgerly",
+    "surface": "open_api",
+    "category": "bug",
+    "priority": "high",
+    "language": "en",
+    "entity_ids": {"account_ids": ["63ff12ab34cd56ef7890abcd", "63ff12ab34cd56ef7890abce"], "listing_ids": [], "reservation_ids": []},
+    "api_errors": [
+      {"endpoint": "/v1/listings", "http_method": "GET", "http_status": 504, "error_message": "Gateway Timeout"},
+      {"endpoint": "/v1/reservations", "http_method": "GET", "http_status": 502, "error_message": null}
+    ],
+    "needs_engineering": true
+  }
+}

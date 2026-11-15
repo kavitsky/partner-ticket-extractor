@@ -1,0 +1,47 @@
+# Everything that changes between experiments lives here, not in code.
+
+[run]
+prompt_versions = ["v1", "v2", "v3"]
+sampling = ["deterministic", "creative"]
+models = ["gpt-4o-mini", "gemini-2.5-flash-lite", "llama3.2-3b-local"]
+# Configuration that `make regress` checks against the golden set.
+production = { model = "gemini-2.5-flash-lite", prompt_version = "v3", sampling = "deterministic" }
+regression_min_field_accuracy = 0.85
+
+[sampling.deterministic]
+temperature = 0.0
+top_p = 1.0
+
+[sampling.creative]
+temperature = 0.8
+top_p = 0.9
+
+# price_* is USD per 1M tokens (OpenRouter list prices, Nov 2026).
+[models.gpt-4o-mini]
+provider = "openrouter"
+model_id = "openai/gpt-4o-mini"
+price_input = 0.15
+price_output = 0.60
+
+[models."gemini-2.5-flash-lite"]
+provider = "openrouter"
+model_id = "google/gemini-2.5-flash-lite"
+price_input = 0.10
+price_output = 0.40
+
+[models."llama3.2-3b-local"]
+provider = "ollama"
+model_id = "llama3.2:3b"
+price_input = 0.0
+price_output = 0.0
+
+[providers.openrouter]
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+timeout_s = 60
+max_retries = 3
+
+[providers.ollama]
+base_url = "http://localhost:11434"
+timeout_s = 180
+max_retries = 2

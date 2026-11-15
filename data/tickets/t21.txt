@@ -1,0 +1,1 @@
+Suggestion: a bulk endpoint to update custom fields on many listings at once. Right now we loop PUT /v1/listings/{id}/custom-fields for 2k listings and it takes forever + we hit limits. Would save us a lot. — Portfolio Pro team

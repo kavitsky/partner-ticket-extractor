@@ -1,0 +1,2 @@
+Hi, we still use the old endpoints GET /api/v2/listings (legacy). Since today they return 410 Gone. Ми бачили лист про deprecation, але думали що дедлайн наступного місяця. Можна тимчасово продовжити доступ? Migration to Open API will take us ~3 weeks, all 60 clients are affected right now.
+-- TurnoverBnB
