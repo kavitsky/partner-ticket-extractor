@@ -72,7 +72,8 @@ The whole matrix (18 runs, 540 extractions, plus repair turns) cost **$0.065** o
   **With 10 tickets × 8 fields, one wrong field is 1.25 points, so differences under ~3 points are noise.**
 - **Sampling.** For the hosted models, T=0.8 vs T=0 changes accuracy by 0–1.2 points over 20 tickets, within noise.
   For the 3B model, T=0.8 is worse on v1 (−5 points). T=0 is chosen for reproducibility and so the cache stays meaningful:
-  two uncached reruns of the production config on the golden set both gave 97.5%.
+  two uncached reruns of the production config on the golden set both gave 97.5%. T=0 still isn't fully deterministic
+  through an API: an uncached rerun of gpt-4o-mini v3 flipped one holdout field (90.0% to 88.8%).
 - **Validity.** Strict structured output gives the hosted models almost 100% valid JSON on the first try. The ~3%
 that fail are answers that break the *local* checks: the string `"null"` as a name (gpt-4o-mini t08, v1), a `200 OK`
 listed as an API error (gpt-4o-mini t08, v2/v3), or a summary over 200 characters (gemini t10, v1). All of those were
